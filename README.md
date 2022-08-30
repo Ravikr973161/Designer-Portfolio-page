@@ -16,7 +16,7 @@ This is a Hosting Website landing page, I have built it from scratch using HTML 
 
 ### Here's the Live Deployed Website:
 
-[Live Link !](https://inquisitive-maamoul-c49a88.netlify.app)
+[Live Link !](https://chipper-sundae-6a475e.netlify.app/)
 
 ![Web Site Image](./assets/15.png)
 
