@@ -2,7 +2,10 @@ Hi This is Ravi K R, full stack web developer.
 
 # Project Name : 15. Designer-Portfolio-page ![](https://img.shields.io/badge/Project-15-green)
 
-This is a Hosting Website landing page, I have built it from scratch using HTML and CSS. its great experince i learnt Layout making through Flexbox. specifically this project helped me to expore new things like Box Shadow, Hover Effect, and cards gradient images, transform property etc . 
+Version-1: This is a Designer-Portfolio-page landing page, I have built it from scratch using HTML and CSS. its great experince i learnt Layout making through Flexbox. specifically this project helped me to expore new things like Box Shadow, Hover Effect, and cards gradient images, transform property etc.
+
+Version-2: I rebuilded this website using tailwind css, and i created this website for more responsive and compatable for mobile and desktop modes. 
+This framework helped me to build production ready code quikly for both desktop and mobile versions, this project helped me to explore its Librarys, Utilitys and its avoilable CSS class. 
 
 </br>
 
