@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designer portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap" rel="stylesheet">  
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css"> 
+   <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            },
+            height: {
+                '144': '36rem',
+                '168':'50rem',
+             }
+          }
+        }
+      }
+    </script>
+</head>
+<body class="bg-black container mx-auto w-4/5" >
+    <nav class="relative container mx-auto ">
+          <div class="flex items-center justify-between">
+            <div class="pt-4">
+                <img src="./assets/Logo.png" alt="logo">
+            </div>
+            <div class="hidden md:flex space-x-8 text-white c">
+                <a href="#">  <select name="" class="bg-transparent"> <option value="">HOME</option></select> </a>
+                <a href="#">PROJECT</a>
+                <a href="#">ABOUT</a>
+                <a href="#">CONTACT</a>
+                <a href="#"><select name="" class="bg-transparent">
+                    <option value="" >OTHER PAGE</option>
+                </select></a>
+            </div>
+            <div class="bg-white sm:hidden">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+        
+            </div>
+          </div>
+    </nav>
+
+    <!-- Hero-section -->
+ 
+
+    <div class="flex flex-col text-center items-center md:text-left  md:flex-row ">
+         <div class="  md:ml-16 md:mt-10 md:w-2/5"><img  src="./assets/character.png" alt="heroimg"></div>
+         <div  class="text-white mt-10 md:mt-40 md:w-3/5">
+            <h4 class="text-red-600 font-mono font-bold text-2xl">Hello I'm Ravi</h4>
+            <h5 class=" text-5xl md:text-7xl font-bold">Visual Designer</h5>
+            <p class="mt-3 text-slate-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In doloremque commodi omnis enim error veniam quam necessitatibus ex soluta aperiam doloribus recusandae voluptas consequuntur quasi reprehenderit, voluptatum molestiae atque!</span></p>
+            <button class="bg-red-600 p-3 mt-4 w-40">ABOUT ME</button> 
+        </div>
+    </div>
+
+
+    <div class="container md:w-1/2 h-168 md:h-144 text-center  absolute  bg-slate-700 left-0 mt-10">
+       <div class="relative top-[670px] md:top-96 text-red-600"> <h4 class="text-5xl font-bold">12</h4>
+        <p class="text-3xl font-bold text-white">Years Experience</p></div>
+    </div>
+
+    <div class="grid md:grid-rows-1 md:grid-flow-col gap-4 mt-20 relative">
+        <div class="bg-gray-800 p-4">
+            <img src="https://img.icons8.com/windows/32/FA5252/calendar.png"/>
+            <h4 class="text-white text-2xl font-bold">UI Design</h4>
+             <p class="text-white text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, Lorem ipsum dolor sit amet consectetur. porro!</p>
+             <p class="flex flex-row text-red-600">Know More
+                <img src="https://img.icons8.com/material-outlined/24/FA5252/forward.png"/>
+               </p> 
+            </div>
+        <div class="bg-red-600 p-4">
+            <img src="https://img.icons8.com/ios/50/FA5252/mac-book-air.png"/>
+            <h4 class="text-white text-2xl font-bold">Product Design</h4>
+            <p class="text-white text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, Lorem ipsum dolor sit amet consectetur. porro!</p>
+            <p class="flex flex-row text-white">Know More
+                <img src="https://img.icons8.com/material-outlined/24/FA5252/forward.png"/>
+               </p> 
+        </div>
+        <div class="bg-gray-800 p-4">
+            <img src="https://img.icons8.com/ios/50/000000/smart.png"/>
+            <h4 class="text-white text-2xl font-bold">Branding</h4>
+            <p class="text-white text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, Lorem ipsum dolor sit amet consectetur. porro!</p>
+           <p class="flex flex-row text-red-600">Know More
+            <img src="https://img.icons8.com/material-outlined/24/FA5252/forward.png"/>
+           </p> 
+        </div>    
+    </div>
+
+   
+
+    <div class="float-right md:w-2/3 relative top-40 md:top-0">
+    <div class="grid grid-rows-2 grid-flow-col gap-4 mt-10">
+        <div class="bg-gray-800 p-5">
+           <h4 class="text-red-600 text-2xl font-bold">60+</h4>
+           <p class="text-slate-300">Clients</p>
+        </div>
+        <div class="bg-gray-800 p-4">
+           <h4 class="text-red-600 text-2xl font-bold">12</h4>
+           <p class="text-slate-300">Years Experience</p>
+       </div>
+        <div class="bg-gray-800 p-4">
+           <h4 class="text-red-600 text-2xl font-bold">122+</h4>
+           <p class="text-slate-300">Completed Projects</p>
+        </div>
+        <div class="bg-gray-800 p-4">
+           <h4 class="text-red-600 text-2xl font-bold">10</h4>
+           <p class="text-slate-300">Achievements</p>
+        </div>
+       </div>
+    </div>
+
+    
+    <div class="flex flex-row justify-between w-full relative top-48 md:top-36">
+        <div><h4 class="text-white font-3xl font-bold">FEATURED PROJECTS</h4>
+            <p class="text-slate-300 text-sm font-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+        <button class="bg-red-600 md:p-3 w-40 text-white">VIEW ALL</button> 
+     </div>
+
+    <div class="grid grid-rows-2 grid-flow-col gap-4 relative top-60 md:top-40">
+        <div><div class="bg-gray-800"><img class="pl-4 pr-4 pb-12 pt-12" src="./assets/Project 01.png" alt=""></div>
+          <h4 class="text-white font-bold mt-4">Street Style</h4>
+          <p class="flex flex-row text-red-600">Know More
+          <img src="https://img.icons8.com/material-outlined/24/FA5252/forward.png"/>
+          </p> 
+        </div>
+        <div>
+            <div class="bg-gray-800"> <img class="pl-4 pr-4 pb-12 pt-12"  src="./assets/Project 02.png" alt=""></div>
+           <h4 class="text-white font-bold mt-4">Street Style</h4>
+           <p class="flex flex-row text-red-600">Know More
+           <img src="https://img.icons8.com/material-outlined/24/FA5252/forward.png"/>
+           </p>    
+        </div>
+        <div>
+            <div class="bg-gray-800"><img class="pl-4 pr-4 pb-12 pt-12"  src="./assets/Project 004.png" alt=""></div>
+            <h4 class="text-white font-bold mt-4">Street Style</h4>
+            <p class="flex flex-row text-red-600">Know More
+            <img src="https://img.icons8.com/material-outlined/24/FA5252/forward.png"/>  
+            </p>    
+        </div>
+        <div> 
+             <div class="bg-gray-800"><img class="pl-4 pr-4 pb-12 pt-12"  src="./assets/Project 05.png" alt=""></div>
+            <h4 class="text-white font-bold mt-4">Street Style</h4>
+            <p class="flex flex-row text-red-600">Know More
+            <img src="https://img.icons8.com/material-outlined/24/FA5252/forward.png"/>  
+            </p>   
+        </div>  
+    </div>
+
+   <div class="bg-gray-800 mt-72 md:mt-60">
+    <div class="flex  flex-col md:flex-row ">
+        <div class=" md:w-2/3">
+            <div class="p-10"><h4 class="text-white text-3xl md:text-5xl  font-bold">Let's work together on your next project</h4>
+                <p class="text-slate-300 text-sm font-2xl mt-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nobis fugiat voluptatibus! Corrupti excepturi quia atque quis deleniti voluptas sequi!</p></div>
+         </div>
+          <div class="md:w-1/3 flex items-center ml-32 mb-8 md:ml-40 text-center"> <button class="bg-red-600 p-2 text-white">CONTACT</button></div>
+    </div> 
+   </div>
+
+
+        <div class="flex flex-col md:flex-row justify-between w-5/12 items-center text-center  text-slate-300 list-none ml-28 md:ml-80 mt-20">
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>PROJECTS</li>
+            <li>CONTACT</li>
+        </div>
+
+<!-- footer -->
+<footer class="bg-gray-800 left-0 absolute w-full mt-4 ">
+<div class="flex text-center items-center">
+    <div class="p-4 md:ml-40">
+        <img src="./assets/Logo.png" alt="logo">
+    </div>
+    
+        <div class="flex justify-between ml-12 md:ml-60 w-40  text-white social-icon-container">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-twitter"></ion-icon>
+            <ion-icon name="logo-youtube"></ion-icon>
+        </div> 
+        
+  </div>
+
+</footer>
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
